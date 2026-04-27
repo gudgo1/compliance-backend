@@ -1,0 +1,6 @@
+setting_key,observed_value,source_reference
+password_min_length,14,identity_policy_export.csv
+guest_account,disabled,local_accounts_export.csv
+firewall_inbound_default,block,firewall_policy_export.csv
+smbv1,disabled,windows_features_export.csv
+telnet_service,disabled,services_export.csv

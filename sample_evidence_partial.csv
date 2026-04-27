@@ -1,0 +1,4 @@
+setting_key,observed_value,source_reference
+password_min_length,12,identity_policy_export.csv
+guest_account,disabled,local_accounts_export.csv
+telnet_service,running,services_export.csv
