@@ -52,7 +52,7 @@ def seed():
     with app.app_context():
         user = User.query.filter_by(email="analyst@example.edu").first()
         if not user:
-            user = User(name="Demo Analyst", email="analyst@example.edu", role="analyst")
+            user = User(name="Demo Analyst", email="analyst@example.edu.au", role="analyst")
             db.session.add(user)
 
         categories = {}
