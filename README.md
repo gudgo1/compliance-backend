@@ -1,6 +1,6 @@
-# University Compliance Checker Backend
+# Compliance Checker Backend prototype
 
-Flask + SQLAlchemy + PostgreSQL backend for a university Compliance Checker prototype.
+Flask + SQLAlchemy + PostgreSQL backend for Compliance Checker prototype.
 
 ## Features
 
@@ -20,7 +20,7 @@ pip install -r requirements.txt
 Copy-Item .env.example .env
 ```
 
-Update `.env` if needed:
+Update `.env` if needed (Currently set to Roberts local desktop as host):
 
 ```env
 DATABASE_URL=postgresql://postgres:roby@localhost:5432/compliance_checker
